@@ -11,14 +11,13 @@ parent = "Follow Us!"
 url = "https://instagram.com/heyattreq"
 weight = 1
 [[menu.main]]
-name = "LinkedIn"
-parent = "Follow Us!"
-url = "https://linkedin.com/company/attreq"
-weight = 2
+name = "Homepage 1"
+parent = "Homepage"
+url = "homepage/home-1"
 [[menu.main]]
-hasChildren = true
-name = "Follow Us!"
-weight = 3
+name = "Homepage 2"
+parent = "Homepage"
+url = "homepage/home-2"
 [[menu.main]]
 name = "Contact"
 url = "https://attreq.com/index.html#contact"
