@@ -1,4 +1,4 @@
-baseurl = "attreq.com"
+baseurl = "https://blog.attreq.com"
 googleAnalytics = ""
 languageCode = "en-us"
 paginate = 6
