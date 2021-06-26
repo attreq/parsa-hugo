@@ -1,4 +1,4 @@
-baseurl = "https://attreq-blog.netlify.com"
+baseurl = "https://blog.attreq.com"
 googleAnalytics = ""
 languageCode = "en-us"
 paginate = 6
@@ -29,14 +29,8 @@ url = "https://attreq.com/about.html"
 weight = 1
 [outputs]
 home = ["HTML", "RSS", "JSON"]
-[taxonomies]
-author = "authors"
-tag = "tags"
-category = "categories"
-disableKinds = ["taxonomyTerm"]
 [params]
 address = "6 rip carl Avenue CA 90733"
-# author = "John Doe"
 author_image = "images/banner-img.png"
 bio = "I’m a Freelance Interactive Art Director based in France. Focusing across branding and identity, digital and print."
 contact_form_action = "#"
@@ -83,21 +77,17 @@ link = "plugins/search/fuse.min.js"
 link = "plugins/search/mark.js"
 [[params.plugins.js]]
 link = "plugins/search/search.js"
-# [[params.social]]
-# icon = "ti-facebook"
-# link = ""
 [[params.social]]
 icon = "ti-instagram"
 link = "#"
 [[params.social]]
 icon = "ti-medium"
 link = "#"
-# [[params.social]]
-# icon = "ti-twitter-alt"
-# link = "#"
 [[params.social]]
 icon = "ti-linkedin"
 link = "#"
-# [[params.social]]
-# icon = "ti-github"
-# link = "#"
+[taxonomies]
+author = "authors"
+category = "categories"
+disableKinds = ["taxonomyTerm"]
+tag = "tags"
